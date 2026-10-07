@@ -15,4 +15,12 @@
 
 Lên (GitHub) tạo repo để có chỗ push code lên
 
+### Tạo nhánh với git
+
+1. git branch => kiểm tra mình đang ở nhánh nào
+2. git checkout -b (tên nhánh mới) => tạo nhánh mới và di chuyển qua nhánh đó
+3. git branch (tên nhánh) tạo nhánh mới
+4. git switch (tên nhánh) => di chuyển qua nhanh có tên như yêu cầu
+5. git push origin (tên nhánh)=> push thay đổi của nhánh đó lên github
+
 ### B. Ôn lại Javascripts
