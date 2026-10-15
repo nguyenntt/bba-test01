@@ -24,8 +24,7 @@ console.log("In ra các phần tử có chỉ số health >=1000",possibleWinter
 
 // Bài tập 2 tạo hàm printLeaderboard
 
-function printLeaderboard() {
-    const player =[
+  const player =[
         {name: "Mario",score: 1000},
         {name: "Lumi",score: 300},
         {name: "Flora",score: 400},
@@ -33,6 +32,7 @@ function printLeaderboard() {
         {name: "Taek",score: 800}
     ]
 
+function printLeaderboard(player) {
     player.sort((a, b) => b.score - a.score);
 
     player.forEach((player, i) => {
@@ -44,5 +44,5 @@ function printLeaderboard() {
 });
 }
 
-printLeaderboard();
+printLeaderboard(player);
 

@@ -36,3 +36,17 @@ for (let x of numbers) {
 }
 
 console.log(`Tổng số cặp là ${dem}`);
+
+// cách dung for of
+// và toán tử điều kiện
+let dem3 = 0;
+let arry =Array.from({length:100},(_,i)=>i+1);
+for (let x of arry){
+    for(let y of arry){
+      if (y>=x){
+        let z = x+y;
+        z% 17 ===0 ? (dem3++, console.log(`Cặp số chia hết cho 17 là (${x}, ${y})`))
+        : null;
+      }
+    }
+}
